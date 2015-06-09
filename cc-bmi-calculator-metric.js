@@ -42,8 +42,8 @@ jQuery(document).ready(function ($) {
     };
 
     function calculate_bmi_metric(widget_id) {
-        var height = $('#' + widget_id + '-bmi-height-metric').val(),
-            weight = $('#' + widget_id + '-bmi-weight-metric').val();
+        var height = parseFloat($('#' + widget_id + '-bmi-height-metric').val()),
+            weight = parseFloat($('#' + widget_id + '-bmi-weight-metric').val());
 
         // if no data entered
         if (isNaN(height) || height == "" || isNaN(weight) || weight == "") {

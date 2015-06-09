@@ -1,18 +1,19 @@
-=== CC BMI Calculator ===
+=== CC BMI Calculator (metric) ===
 Contributors: CalculatorsCanada.ca
-Donate link: http://health.calculatorscanada.ca
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WMNEW56HL8NLW
 Tags: BMI Calculator, calculator, sidebar, widget, plugin, shortcode, health, weight, BMI
 Requires at least: 3.0
 Tested up to: 4.2.2
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add a free simple customizable BMI Calculator to your web site. 
+Add a free simple customizable metric BMI Calculator to your web site. 
 
 == Description ==
 
 This is basic metric [BMI Calculator](http://health.calculatorscanada.ca/bmi-calculator) for Body Mass Index calculation.
+Check [this calculator](https://wordpress.org/support/plugin/bmi-calculator-imperial) if you are looking for BMI calculation with imperial units.
 
 Calculator is very easy customizable: you can change color of background, borders and text to match your web site's theme and change widget title.
 
@@ -38,6 +39,9 @@ Please [contact us](http://calculatorscanada.ca/contact) if you have further que
 4. Widget example in WP post/page
 
 == Changelog ==
+
+= 0.2.0 =
+* Minor layout fixes
 
 = 0.1.0 =
 * Initial release

@@ -2,7 +2,7 @@
 function load_cc_bmi_calc_metric($id, $title, $show_url = 0, $bg_color, $border_color, $text_color)
 {
     if ($show_url == 1)
-        load_cc_bmi_custom_colors($id, $bg_color, $border_color, $text_color);
+        load_cc_bmi_metric_custom_colors($id, $bg_color, $border_color, $text_color);
 ?>
 
 
@@ -53,7 +53,7 @@ function load_cc_bmi_calc_metric($id, $title, $show_url = 0, $bg_color, $border_
 }
 
 
-function load_cc_bmi_custom_colors($id, $bg_color, $border_color, $text_color)
+function load_cc_bmi_metric_custom_colors($id, $bg_color, $border_color, $text_color)
 {
 ?>
 <style type="text/css">
