@@ -4,7 +4,7 @@
 Plugin Name: BMI Calculator (metric)
 Plugin URI: http://health.calculatorscanada.ca/bmi-calculator
 Description: Metric BMI (Body Mass Index) Calculator
-Version: 0.1.0
+Version: 0.2.0
 Author: Calculators Canada
 Author URI: http://calculatorscanada.ca/
 License: GPL2
@@ -134,9 +134,9 @@ add_action('widgets_init', create_function('', 'return register_widget("cc_bmi_c
 
 // load widget style and javascript files
 function cc_bmi_metric_scripts() {
-	wp_register_style( 'cc-bmi-calculator-metric', plugins_url('/cc-bmi-calculator-metric.css',__FILE__), NULL, '0.1.0'); 
+	wp_register_style( 'cc-bmi-calculator-metric', plugins_url('/cc-bmi-calculator-metric.css',__FILE__), NULL, '0.2.0'); 
 	wp_enqueue_style( 'cc-bmi-calculator-metric' );
-    wp_enqueue_script( 'cc-bmi-calculator-metric', plugins_url('/cc-bmi-calculator-metric.js',__FILE__), array('jquery'), '0.1.0', true );
+    wp_enqueue_script( 'cc-bmi-calculator-metric', plugins_url('/cc-bmi-calculator-metric.js',__FILE__), array('jquery'), '0.2.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'cc_bmi_metric_scripts' );
